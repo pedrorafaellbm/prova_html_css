@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: green;
+  }
+
+  .navbar-brand img {
+    width: 40px;
+    margin-right: 10px;
+  }
+
+  .carousel img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+
+  .destaques {
+    padding: 50px 0;
+    background-color: green;
+    text-align: center;
+  }
+
+  .destaques h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .btn-primary {
+    background-color: #6f4e37;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #5a3e2d;
+  }
