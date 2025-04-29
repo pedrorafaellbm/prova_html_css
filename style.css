@@ -32,7 +32,7 @@
 
 .card {
   width: 250px;
-  background: #fefefe;
+  background-color: #f4e9d8;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,.1);
   overflow: hidden;
@@ -51,6 +51,7 @@
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 10px;
+  
 }
 .card h3 {
   margin: 15px 10px 5px;
@@ -63,7 +64,7 @@
   font-size: .95rem;
 }
 
-.btn-card {
+.botao-cor {
   margin-bottom: 15px;
   padding: 10px 20px;
   background: #311706;
@@ -150,8 +151,10 @@
 }
 
 .categoria-texto {
-  font-weight: 500;
-  margin-top: 8px;
+  margin: 0;
+  font-weight: 600;
+  color: #5e412f; /* nova cor base do texto */
+  transition: color 0.3s, transform 0.3s;
 }
 
 @media (max-width: 768px) {
